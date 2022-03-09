@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-PATH = 'C:/Users/Josh/OneDrive/Desktop/ALT/CSV files (Josh)/'
+PATH = 'CSV files (Josh)/'
 
 def loadData(fileName, path=PATH, floatconv=False):
     dataIn = open(f"{path}/{fileName}",'r').read()
